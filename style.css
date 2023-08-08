@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+span, a {
+    display: inline-block;
+}
+.tex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-items: center;
+    border: 2px solid red;
+}
+.chz {
+    width: 33%;
+}
+.pc {
+    width: 50%;
+    height: 10%;
+    background-color: black;
+}
+.box {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.bix {
+    margin: 10px 0;
+    border: 2px solid violet;
+}
+.bx1 {
+    margin: 10px 0;
+    border: 2px solid violet;
+}
+.chap {
+    width: 24%;
+    border: 2px solid rgb(251, 9, 251);
+}
+.ong {
+    width: 24%;
+    border: 2px solid rgb(251, 9, 251);
+}
+.btn {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+}
+.bx2 {
+    width: 48%;
+    border: 2px solid darkgoldenrod;
+}
+.pppic {
+    position: relative;
+}
+.soat {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    position: absolute;
+    bottom: 8px;
+    right: 8px;
+}
+.p {
+    width: 33%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.h1 {
+    margin-bottom: 10px;
+}
+.pp {
+    color: rgb(31, 31, 31);
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+.pi {
+    transition: 0.2s all linear
+}
+.pi:hover {
+    transform: scale(1.09);
+    overflow: auto;
+}
+.p1 {
+    width: 33%;
+}
+
+@media(max-width:835px){
+    .bx2 {
+        width: 100%;
+        order: -1;
+    }
+    .chap, .ong {
+        justify-content: center;
+        align-items: center;
+    }
+    .h1 {
+        width: 100%;
+    }
+}
+@media(max-width:500px){
+    .p, .chz, .p1, .h1 {
+        width: 100%;
+    }
+    .pi{
+        width: 100%;
+    }
+}
+@media(max-width:400px){
+    .p, .chz, .p1, .h1 {
+        width: 100%;
+    }
+    .pi{
+        width: 100%;
+    }
+}
+@media(max-width:300px){
+    .p, .chz, .p1, .h1 {
+        width: 100%;
+    }
+    .pi{
+        width: 100%;
+    }
+    .pppic {
+        width: 100%;
+    }
+}
