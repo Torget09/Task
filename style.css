@@ -98,13 +98,25 @@ span, a {
     .bx2 {
         width: 100%;
         order: -1;
+        margin-bottom: 30px;
     }
-    .chap, .ong {
-        justify-content: center;
-        align-items: center;
+    .chap{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .ong {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
     }
     .h1 {
         width: 100%;
+    }
+    .pp {
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
 @media(max-width:500px){
@@ -112,6 +124,9 @@ span, a {
         width: 100%;
     }
     .pi{
+        width: 100%;
+    }
+    .tex {
         width: 100%;
     }
 }
