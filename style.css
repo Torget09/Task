@@ -15,7 +15,6 @@ span, a {
     flex-wrap: wrap;
     justify-content: left;
     align-items: center;
-    border: 2px solid red;
 }
 .chz {
     width: 33%;
@@ -35,19 +34,19 @@ span, a {
 }
 .bix {
     margin: 10px 0;
-    border: 2px solid violet;
+    
 }
 .bx1 {
     margin: 10px 0;
-    border: 2px solid violet;
+   
 }
 .chap {
     width: 24%;
-    border: 2px solid rgb(251, 9, 251);
+  
 }
 .ong {
     width: 24%;
-    border: 2px solid rgb(251, 9, 251);
+   
 }
 .btn {
     background-color: black;
@@ -57,7 +56,7 @@ span, a {
 }
 .bx2 {
     width: 48%;
-    border: 2px solid darkgoldenrod;
+
 }
 .pppic {
     position: relative;
